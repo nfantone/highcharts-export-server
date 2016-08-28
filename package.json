@@ -42,7 +42,7 @@
   },
   "homepage": "https://github.com/nfantone/highcharts-export-server#readme",
   "dependencies": {
-    "highcharts": "^4.2.5",
+    "highcharts": "^4.2.6",
     "jquery": "^2.2.4"
   },
   "optionalDependencies": {
