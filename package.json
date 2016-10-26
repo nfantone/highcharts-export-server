@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/nfantone/highcharts-export-server#readme",
   "dependencies": {
-    "highcharts": "^4.2.6"
+    "highcharts": "^5.0.1"
   },
   "optionalDependencies": {
     "phantomjs-prebuilt": "^2.1.12",
