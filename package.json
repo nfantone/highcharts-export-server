@@ -1,6 +1,6 @@
 {
   "name": "highcharts-phantomjs",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "PhantomJS script to convert SVG or Highcharts JSON options objects to chart images",
   "main": "server.js",
   "bin": {
@@ -43,18 +43,18 @@
   },
   "homepage": "https://github.com/nfantone/highcharts-export-server#readme",
   "dependencies": {
-    "highcharts": "^4.2.6"
+    "highcharts": "^5.0.6"
   },
   "optionalDependencies": {
-    "phantomjs-prebuilt": "^2.1.12",
-    "winston": "^2.2.0",
-    "yargs": "^5.0.0"
+    "phantomjs-prebuilt": "^2.1.14",
+    "winston": "^2.3.0",
+    "yargs": "^6.6.0"
   },
   "devDependencies": {
-    "eslint": "^3.4.0",
-    "eslint-config-semistandard": "^7.0.0-beta.0",
-    "eslint-config-standard": "^6.0.0",
-    "eslint-plugin-promise": "^2.0.1",
-    "eslint-plugin-standard": "^2.0.0"
+    "eslint": "^3.12.2",
+    "eslint-config-semistandard": "^7.0.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
   }
 }
