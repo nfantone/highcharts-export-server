@@ -1,6 +1,6 @@
 {
   "name": "highcharts-phantomjs",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "PhantomJS script to convert SVG or Highcharts JSON options objects to chart images",
   "main": "server.js",
   "bin": {
