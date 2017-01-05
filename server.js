@@ -1,7 +1,11 @@
 #!/usr/bin/env node
-
 'use strict';
 
+/**
+ * Standalone HTTP server to create Highcharts graphs.
+ *
+ * @module highcharts-export-server
+ */
 const pck = require('./package');
 const path = require('path');
 const SERVER_NAME = 'highcharts-convert';
@@ -10,16 +14,15 @@ const DEFAULT_HOSTNAME = '127.0.0.1';
 const DEFAULT_PORT = 3030;
 
 var args = require('yargs')
-  .usage(`Usage: ${pck.name} start [-h HOST][-p PORT] -- [options]`)
-  .command('start', 'Starts highcharts-convert HTTP server')
-  .alias('h', 'hostname')
-  .alias('h', 'host')
-  .describe('h', 'Hostname of the server')
-  .alias('p', 'port')
-  .describe('p', 'Port the server will listen on')
-  .default({
-    p: DEFAULT_PORT,
-    h: DEFAULT_HOSTNAME
+  .usage(`start [-h][-p] -- [options]`)
+  .command('start', 'Starts highcharts-convert HTTP server', function(yargs) {
+    return yargs.default('h', DEFAULT_HOSTNAME)
+      .alias('h', 'hostname')
+      .alias('h', 'host')
+      .describe('h', 'Hostname of the server')
+      .default('p', DEFAULT_PORT)
+      .alias('p', 'port')
+      .describe('p', 'Port the server will listen on');
   })
   .check((argv) => {
     if (!argv._[0] || !argv._[0].match(/start/)) {
