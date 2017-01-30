@@ -1,5 +1,7 @@
 # ![highcharts](https://www.dropbox.com/s/3se8pnb23b4csay/highcharts.png?raw=1)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nfantone/highcharts-export-server.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/nfantone/highcharts-export-server.svg?branch=develop)](https://travis-ci.org/nfantone/highcharts-export-server)
 
 The file `lib/highcharts-convert.js` is a [PhantomJS](http://phantomjs.org/) script to convert SVG or Highcharts JSON options objects to chart images. It is ideal for batch processing Highcharts configurations for attaching to emails or reports. An online demo with a GUI can be viewed at [export.highcharts.com/demo](http://export.highcharts.com/demo).
