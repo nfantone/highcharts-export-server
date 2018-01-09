@@ -48,7 +48,7 @@
   "optionalDependencies": {
     "phantomjs-prebuilt": "^2.1.14",
     "winston": "^2.3.0",
-    "yargs": "^7.0.1"
+    "yargs": "^10.1.1"
   },
   "devDependencies": {
     "eslint": "^3.12.2",
