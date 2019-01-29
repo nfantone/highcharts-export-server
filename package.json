@@ -47,7 +47,7 @@
   },
   "optionalDependencies": {
     "phantomjs-prebuilt": "^2.1.14",
-    "winston": "^2.3.0",
+    "winston": "^3.2.1",
     "yargs": "^7.0.1"
   },
   "devDependencies": {
